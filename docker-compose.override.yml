@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build:
+      context: ./worklenz-frontend
+  backend:
+    build:
+      context: ./worklenz-backend
+  client-portal:
+    build:
+      context: ./worklenz-client-portal
